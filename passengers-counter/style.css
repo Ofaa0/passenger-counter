@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    background: linear-gradient(45deg, #fff018, #69ff18);
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #c01300;
+    padding: 20px;
+}
+h2{
+    padding: 20px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background-color: #c01300;
+}
+
+#save-btn {
+    background-color: #00930f;
+}
